@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="110000" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SA_Tutors_ScreensaverView">
+            <connections>
+                <outlet property="DrawEmailAddress" destination="aOr-fb-cav" id="cfa-bz-x3a"/>
+                <outlet property="DrawLogo" destination="nnc-5L-H1t" id="Zqe-gZ-r7V"/>
+                <outlet property="DrawTelephoneNumber" destination="fKg-h6-Dn5" id="jcm-oE-3Tt"/>
+                <outlet property="DrawWebAddress" destination="s2B-bV-tvp" id="TJS-Dx-Je2"/>
+                <outlet property="FilledOnly" destination="KQw-pT-ZX5" id="Kg8-Cx-f7Y"/>
+                <outlet property="MixtureOfOutlinedAndFilled" destination="po9-lX-vLM" id="dIc-nu-yO5"/>
+                <outlet property="NumberOfItems" destination="wBM-CN-xAN" id="neF-i9-uU8"/>
+                <outlet property="OutlinedOnly" destination="Mp4-Jb-L22" id="Nnn-YQ-cwj"/>
+                <outlet property="configSheet" destination="13" id="33"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="13" userLabel="Panel" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="220" y="283" width="370" height="276"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" autoresizesSubviews="NO" id="18">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="276"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
+                        <rect key="frame" x="274" y="14" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="42">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="okClick:" target="-2" id="39"/>
+                        </connections>
+                    </button>
+                    <button autoresizesSubviews="NO" verticalHuggingPriority="750" fixedFrame="YES" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                        <rect key="frame" x="192" y="14" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="43">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancelClick:" target="-2" id="40"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TuC-mC-X9B">
+                        <rect key="frame" x="18" y="120" width="102" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Draw Logo" bezelStyle="regularSquare" imagePosition="left" inset="2" id="nnc-5L-H1t">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hrs-Rh-9Pa">
+                        <rect key="frame" x="18" y="100" width="156" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Draw Email Address" bezelStyle="regularSquare" imagePosition="left" inset="2" id="aOr-fb-cav">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MO5-Jn-HmL">
+                        <rect key="frame" x="18" y="80" width="147" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Draw Web Address" bezelStyle="regularSquare" imagePosition="left" inset="2" id="s2B-bV-tvp">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MS5-vz-utB">
+                        <rect key="frame" x="18" y="60" width="185" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="check" title="Draw Telephone Number" bezelStyle="regularSquare" imagePosition="left" inset="2" id="fKg-h6-Dn5">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P44-hi-xqt">
+                        <rect key="frame" x="18" y="234" width="109" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="Number of Items" id="rbG-Au-2iy">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="po9-lX-vLM">
+                        <rect key="frame" x="19" y="199" width="209" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="radio" title="Mixture of Outlined and Filled" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="gsm-Ug-B8y">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="RadioTester:" target="-2" id="YHf-SC-8PD"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mp4-Jb-L22">
+                        <rect key="frame" x="19" y="177" width="108" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="radio" title="Outlined Only" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="HpJ-sG-U08">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="RadioTester:" target="-2" id="BmZ-LD-Nuv"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-pT-ZX5">
+                        <rect key="frame" x="19" y="155" width="101" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="radio" title="Filled Only" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="cQO-z1-wKq">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="RadioTester:" target="-2" id="ey3-dt-Fd2"/>
+                        </connections>
+                    </button>
+                    <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wBM-CN-xAN" userLabel="NumberOfItems">
+                        <rect key="frame" x="131" y="232" width="221" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" numberOfTickMarks="11" sliderType="linear" id="Gdq-IA-pvb"/>
+                    </slider>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="38" y="-103"/>
+        </window>
+        <view autoresizesSubviews="NO" id="28">
+            <rect key="frame" x="0.0" y="0.0" width="222" height="1"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <point key="canvasLocation" x="53" y="308"/>
+        </view>
+    </objects>
+</document>

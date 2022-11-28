@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB166EA12930D789009D142D /* Caption.h in Headers */ = {isa = PBXBuildFile; fileRef = CB166E9F2930D789009D142D /* Caption.h */; };
+		CB166EA22930D789009D142D /* Caption.m in Sources */ = {isa = PBXBuildFile; fileRef = CB166EA02930D789009D142D /* Caption.m */; };
+		CB166EA62930DF00009D142D /* CaptionLogo.h in Headers */ = {isa = PBXBuildFile; fileRef = CB166EA42930DF00009D142D /* CaptionLogo.h */; };
+		CB166EA72930DF00009D142D /* CaptionLogo.m in Sources */ = {isa = PBXBuildFile; fileRef = CB166EA52930DF00009D142D /* CaptionLogo.m */; };
+		CB166EAB2930E2D9009D142D /* CaptionWWW.h in Headers */ = {isa = PBXBuildFile; fileRef = CB166EA92930E2D9009D142D /* CaptionWWW.h */; };
+		CB166EAC2930E2D9009D142D /* CaptionWWW.m in Sources */ = {isa = PBXBuildFile; fileRef = CB166EAA2930E2D9009D142D /* CaptionWWW.m */; };
+		CB166EB02930E2ED009D142D /* CaptionEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = CB166EAE2930E2ED009D142D /* CaptionEmail.h */; };
+		CB166EB12930E2ED009D142D /* CaptionEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = CB166EAF2930E2ED009D142D /* CaptionEmail.m */; };
+		CB166EB52930E2FC009D142D /* CaptionTelephoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = CB166EB32930E2FC009D142D /* CaptionTelephoneNumber.h */; };
+		CB166EB62930E2FC009D142D /* CaptionTelephoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CB166EB42930E2FC009D142D /* CaptionTelephoneNumber.m */; };
+		CB18F038292F72D900E85581 /* Item.h in Headers */ = {isa = PBXBuildFile; fileRef = CB18F036292F72D900E85581 /* Item.h */; };
+		CB18F039292F72D900E85581 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = CB18F037292F72D900E85581 /* Item.m */; };
+		CB6F8A96292F532F00D6F21C /* SA_Tutors_ScreensaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6F8A95292F532F00D6F21C /* SA_Tutors_ScreensaverView.h */; };
+		CB6F8A98292F532F00D6F21C /* SA_Tutors_ScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F8A97292F532F00D6F21C /* SA_Tutors_ScreensaverView.m */; };
+		CB8F70D529326847003B18DD /* ConfigureSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8F70D429326847003B18DD /* ConfigureSheet.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB166E9F2930D789009D142D /* Caption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caption.h; sourceTree = "<group>"; };
+		CB166EA02930D789009D142D /* Caption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caption.m; sourceTree = "<group>"; };
+		CB166EA42930DF00009D142D /* CaptionLogo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptionLogo.h; sourceTree = "<group>"; };
+		CB166EA52930DF00009D142D /* CaptionLogo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptionLogo.m; sourceTree = "<group>"; };
+		CB166EA92930E2D9009D142D /* CaptionWWW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptionWWW.h; sourceTree = "<group>"; };
+		CB166EAA2930E2D9009D142D /* CaptionWWW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptionWWW.m; sourceTree = "<group>"; };
+		CB166EAE2930E2ED009D142D /* CaptionEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptionEmail.h; sourceTree = "<group>"; };
+		CB166EAF2930E2ED009D142D /* CaptionEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptionEmail.m; sourceTree = "<group>"; };
+		CB166EB32930E2FC009D142D /* CaptionTelephoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptionTelephoneNumber.h; sourceTree = "<group>"; };
+		CB166EB42930E2FC009D142D /* CaptionTelephoneNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptionTelephoneNumber.m; sourceTree = "<group>"; };
+		CB18F036292F72D900E85581 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		CB18F037292F72D900E85581 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		CB6F8A92292F532E00D6F21C /* SA Tutors Screensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SA Tutors Screensaver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6F8A95292F532F00D6F21C /* SA_Tutors_ScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SA_Tutors_ScreensaverView.h; sourceTree = "<group>"; };
+		CB6F8A97292F532F00D6F21C /* SA_Tutors_ScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SA_Tutors_ScreensaverView.m; sourceTree = "<group>"; };
+		CB6F8A99292F532F00D6F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8F70D429326847003B18DD /* ConfigureSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigureSheet.xib; sourceTree = "<group>"; };
+		CBBA32A1293215240037386E /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6F8A8F292F532E00D6F21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB6F8A88292F532D00D6F21C = {
+			isa = PBXGroup;
+			children = (
+				CB6F8A94292F532E00D6F21C /* SA Tutors Screensaver */,
+				CB6F8A93292F532E00D6F21C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6F8A93292F532E00D6F21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F8A92292F532E00D6F21C /* SA Tutors Screensaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6F8A94292F532E00D6F21C /* SA Tutors Screensaver */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F8A95292F532F00D6F21C /* SA_Tutors_ScreensaverView.h */,
+				CB6F8A97292F532F00D6F21C /* SA_Tutors_ScreensaverView.m */,
+				CB6F8A99292F532F00D6F21C /* Info.plist */,
+				CB18F036292F72D900E85581 /* Item.h */,
+				CB18F037292F72D900E85581 /* Item.m */,
+				CB166E9F2930D789009D142D /* Caption.h */,
+				CB166EA02930D789009D142D /* Caption.m */,
+				CB166EA42930DF00009D142D /* CaptionLogo.h */,
+				CB166EA52930DF00009D142D /* CaptionLogo.m */,
+				CB166EA92930E2D9009D142D /* CaptionWWW.h */,
+				CB166EAA2930E2D9009D142D /* CaptionWWW.m */,
+				CB166EAE2930E2ED009D142D /* CaptionEmail.h */,
+				CB166EAF2930E2ED009D142D /* CaptionEmail.m */,
+				CB166EB32930E2FC009D142D /* CaptionTelephoneNumber.h */,
+				CB166EB42930E2FC009D142D /* CaptionTelephoneNumber.m */,
+				CBBA32A1293215240037386E /* Header.h */,
+				CB8F70D429326847003B18DD /* ConfigureSheet.xib */,
+			);
+			path = "SA Tutors Screensaver";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB6F8A8D292F532E00D6F21C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB166EB52930E2FC009D142D /* CaptionTelephoneNumber.h in Headers */,
+				CB6F8A96292F532F00D6F21C /* SA_Tutors_ScreensaverView.h in Headers */,
+				CB18F038292F72D900E85581 /* Item.h in Headers */,
+				CB166EA62930DF00009D142D /* CaptionLogo.h in Headers */,
+				CB166EA12930D789009D142D /* Caption.h in Headers */,
+				CB166EB02930E2ED009D142D /* CaptionEmail.h in Headers */,
+				CB166EAB2930E2D9009D142D /* CaptionWWW.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB6F8A91292F532E00D6F21C /* SA Tutors Screensaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6F8A9C292F532F00D6F21C /* Build configuration list for PBXNativeTarget "SA Tutors Screensaver" */;
+			buildPhases = (
+				CB6F8A8D292F532E00D6F21C /* Headers */,
+				CB6F8A8E292F532E00D6F21C /* Sources */,
+				CB6F8A8F292F532E00D6F21C /* Frameworks */,
+				CB6F8A90292F532E00D6F21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SA Tutors Screensaver";
+			productName = "SA Tutors Screensaver";
+			productReference = CB6F8A92292F532E00D6F21C /* SA Tutors Screensaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB6F8A89292F532E00D6F21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CB6F8A91292F532E00D6F21C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CB6F8A8C292F532E00D6F21C /* Build configuration list for PBXProject "SA Tutors Screensaver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB6F8A88292F532D00D6F21C;
+			productRefGroup = CB6F8A93292F532E00D6F21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6F8A91292F532E00D6F21C /* SA Tutors Screensaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6F8A90292F532E00D6F21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8F70D529326847003B18DD /* ConfigureSheet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB6F8A8E292F532E00D6F21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB18F039292F72D900E85581 /* Item.m in Sources */,
+				CB6F8A98292F532F00D6F21C /* SA_Tutors_ScreensaverView.m in Sources */,
+				CB166EA22930D789009D142D /* Caption.m in Sources */,
+				CB166EB62930E2FC009D142D /* CaptionTelephoneNumber.m in Sources */,
+				CB166EA72930DF00009D142D /* CaptionLogo.m in Sources */,
+				CB166EAC2930E2D9009D142D /* CaptionWWW.m in Sources */,
+				CB166EB12930E2ED009D142D /* CaptionEmail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB6F8A9A292F532F00D6F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CB6F8A9B292F532F00D6F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CB6F8A9D292F532F00D6F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SA Tutors Screensaver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlierobin.SATutorsScreensaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		CB6F8A9E292F532F00D6F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "SA Tutors Screensaver/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charlierobin.SATutorsScreensaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB6F8A8C292F532E00D6F21C /* Build configuration list for PBXProject "SA Tutors Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F8A9A292F532F00D6F21C /* Debug */,
+				CB6F8A9B292F532F00D6F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6F8A9C292F532F00D6F21C /* Build configuration list for PBXNativeTarget "SA Tutors Screensaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6F8A9D292F532F00D6F21C /* Debug */,
+				CB6F8A9E292F532F00D6F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB6F8A89292F532E00D6F21C /* Project object */;
+}
